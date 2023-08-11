@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="12sp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:lineSpacingExtra="12sp"
+        android:text="New Case"
+        android:textSize="20sp"
+        android:id="@+id/textVS2"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="top"
+        android:id="@+id/image1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="Case Number"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="1"
+        android:textSize="16sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="Vehicle Number"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="1"
+        android:textSize="16sp"/>
+</LinearLayout>
